@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RW"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/fabricempozenzi/Documents/Calculator/target/surefire/surefirebooter6177743867170468879.jar /Users/fabricempozenzi/Documents/Calculator/target/surefire 2024-04-25T17-31-15_289-jvmRun1 surefire6795323663848530339tmp surefire_04378145071681108498tmp"/>
+    <property name="sun.java.command" value="/Users/fabricempozenzi/Documents/Calculator/target/surefire/surefirebooter9275574594137052647.jar /Users/fabricempozenzi/Documents/Calculator/target/surefire 2024-04-25T17-35-11_638-jvmRun1 surefire12325057768415441473tmp surefire_06804430352162513433tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/fabricempozenzi/Documents/Calculator/target/test-classes:/Users/fabricempozenzi/Documents/Calculator/target/classes:/Users/fabricempozenzi/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/fabricempozenzi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/fabricempozenzi/Documents/Calculator/target/surefire/surefirebooter6177743867170468879.jar"/>
+    <property name="surefire.real.class.path" value="/Users/fabricempozenzi/Documents/Calculator/target/surefire/surefirebooter9275574594137052647.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.2"/>
@@ -58,8 +58,8 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="divisionTest" classname="CalculatorTest" time="0.001"/>
-  <testcase name="additionTest" classname="CalculatorTest" time="0.003">
+  <testcase name="divisionTest" classname="CalculatorTest" time="0.003"/>
+  <testcase name="additionTest" classname="CalculatorTest" time="0.002">
     <failure message="expected:&lt;5&gt; but was:&lt;7&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<5> but was:<7>
 	at CalculatorTest.additionTest(CalculatorTest.java:18)
 ]]></failure>
