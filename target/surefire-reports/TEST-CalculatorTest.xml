@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CalculatorTest" time="0.016" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CalculatorTest" time="0.036" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RW"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/fabricempozenzi/Documents/Calculator/target/surefire/surefirebooter16493707313052138438.jar /Users/fabricempozenzi/Documents/Calculator/target/surefire 2024-05-03T11-33-56_656-jvmRun1 surefire13283432118436239626tmp surefire_010751689356459709869tmp"/>
+    <property name="sun.java.command" value="/Users/fabricempozenzi/Documents/Calculator/target/surefire/surefirebooter12607535721111349960.jar /Users/fabricempozenzi/Documents/Calculator/target/surefire 2024-05-03T13-27-23_691-jvmRun1 surefire11771183262379203542tmp surefire_08532589358745674783tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/fabricempozenzi/Documents/Calculator/target/test-classes:/Users/fabricempozenzi/Documents/Calculator/target/classes:/Users/fabricempozenzi/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/fabricempozenzi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/fabricempozenzi/Documents/Calculator/target/surefire/surefirebooter16493707313052138438.jar"/>
+    <property name="surefire.real.class.path" value="/Users/fabricempozenzi/Documents/Calculator/target/surefire/surefirebooter12607535721111349960.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.2"/>
@@ -58,9 +58,9 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="divisionTest" classname="CalculatorTest" time="0.001"/>
+  <testcase name="divisionTest" classname="CalculatorTest" time="0.004"/>
   <testcase name="additionTest" classname="CalculatorTest" time="0"/>
   <testcase name="multiplicationTest" classname="CalculatorTest" time="0"/>
   <testcase name="powerTest" classname="CalculatorTest" time="0"/>
-  <testcase name="minusTest" classname="CalculatorTest" time="0.001"/>
+  <testcase name="minusTest" classname="CalculatorTest" time="0"/>
 </testsuite>
